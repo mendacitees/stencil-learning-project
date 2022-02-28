@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html dir="ltr" lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <link rel="stylesheet" href="./assets/material.indigo-light_green.min.css">
+    <style>
+      body {
+        background-color: #FAFAFA;
+      }  
+      .container {
+        max-width: 90%;
+        margin: auto;
+        margin-bottom: 300px;
+      } 
+      .mdl-button {
+        margin-bottom: 30px;
+        margin-right: 30px;
+      }         
+    </style>
+    <!-- <script defer src="./assets/material.min.js"></script> -->
+    <script type="module" src="/build/stencil-learning-project.esm.js"></script>
+    <script nomodule src="/build/stencil-learning-project.js"></script>
+    <script type="module">
+        const config = {
+          "headers": [{"text": "Name", "align": "left", "sortable": true, "value": "name", }, { "text": "Phone", "align": "left", "sortable": true, "value": "phone", }, { "text": "Email", "align": "left", "sortable": true, "value": "email", }, { "text": "Address", "align": "left", "sortable": false, "value": "address", }, { "text": "Zip", "align": "right", "sortable": true, "value": "postalZip", }, { "text": "Country", "align": "left", "sortable": true, "value": "country", }, { "text": "Password", "align": "left", "sortable": false, "value": "alphanumeric", },],
+          "items": [{"name":"Jolene Barber","phone":"(703) 204-2733","email":"dictum.proin.eget@hotmail.couk","address":"740-6260 Blandit Av.","postalZip":"73758-56153","country":"Chile","alphanumeric":"TWZ65HOO7BS"},{"name":"Wynne Ward","phone":"1-928-408-4281","email":"malesuada.vel@icloud.ca","address":"Ap #670-9817 Erat, St.","postalZip":"4934","country":"Russian Federation","alphanumeric":"YUM07PYU7YQ"},{"name":"Cameron Dotson","phone":"1-988-938-0177","email":"ut@protonmail.couk","address":"P.O. Box 218, 9427 Morbi Rd.","postalZip":"14858","country":"India","alphanumeric":"ZUQ22OUZ3LX"},{"name":"Isabella Best","phone":"(564) 877-5148","email":"purus.sapien.gravida@protonmail.net","address":"Ap #833-7466 Lacinia Ave","postalZip":"8642","country":"Costa Rica","alphanumeric":"XIL14XFX5UY"},{"name":"Renee Jimenez","phone":"(728) 433-6082","email":"praesent.interdum@outlook.org","address":"P.O. Box 434, 357 Massa. Rd.","postalZip":"85623","country":"Peru","alphanumeric":"UUP05XNW2MD"},{"name":"Jeremy Guy","phone":"1-477-888-0017","email":"sed.diam@google.com","address":"P.O. Box 826, 5350 Eu Road","postalZip":"306127","country":"Norway","alphanumeric":"NEG15NNX1WE"},{"name":"Chase Massey","phone":"1-831-213-6328","email":"malesuada@hotmail.org","address":"Ap #176-1498 Leo Rd.","postalZip":"599987","country":"Vietnam","alphanumeric":"NFZ50FUW9RX"},{"name":"Kennan Gutierrez","phone":"(213) 882-3891","email":"fusce.diam@outlook.edu","address":"P.O. Box 586, 4685 Turpis Rd.","postalZip":"987029","country":"Colombia","alphanumeric":"KBC03NWG2PU"},{"name":"Kellie Wolf","phone":"1-861-513-6468","email":"consequat.enim@google.org","address":"1127 Lorem St.","postalZip":"51-534","country":"Norway","alphanumeric":"CMV39RNW0FJ"},{"name":"Jenette Baldwin","phone":"(433) 863-7091","email":"mauris.elit@yahoo.edu","address":"Ap #371-6350 Congue Avenue","postalZip":"478715","country":"New Zealand","alphanumeric":"PCS13CUL3JD"},{"name":"Kiayada Mays","phone":"(555) 794-8555","email":"donec.nibh@protonmail.edu","address":"Ap #180-5214 Ullamcorper Av.","postalZip":"8422","country":"South Korea","alphanumeric":"KNV15GEF2YN"},{"name":"Elton Powell","phone":"(519) 452-6177","email":"at.nisi@icloud.ca","address":"1117 Commodo Rd.","postalZip":"11214","country":"Germany","alphanumeric":"COA79QBR5DA"},{"name":"Aline Hampton","phone":"1-169-598-6530","email":"ut.semper@google.com","address":"9887 Sit Ave","postalZip":"3954542","country":"Canada","alphanumeric":"HMW74CNK3HD"},{"name":"Mariam Raymond","phone":"1-731-762-6726","email":"et.ultrices.posuere@protonmail.couk","address":"P.O. Box 800, 4416 Eget St.","postalZip":"342685","country":"Indonesia","alphanumeric":"PPX43GPG4OR"},{"name":"Pascale Cleveland","phone":"(551) 552-3675","email":"diam.proin@aol.edu","address":"4428 Tellus Av.","postalZip":"63181-763","country":"Germany","alphanumeric":"QLF74IMJ1DX"},{"name":"Nasim Decker","phone":"1-817-638-1425","email":"imperdiet@yahoo.edu","address":"3136 Proin Rd.","postalZip":"L7V 3G0","country":"United States","alphanumeric":"CPP31HMB1DP"},{"name":"Ifeoma Oneal","phone":"1-932-907-2645","email":"amet.ornare.lectus@aol.ca","address":"7254 Aliquam St.","postalZip":"EI7M 6IN","country":"Pakistan","alphanumeric":"LLM44IRB2BY"},{"name":"Patience Ratliff","phone":"1-172-728-7129","email":"non@hotmail.net","address":"448-4319 Pede. Rd.","postalZip":"0214","country":"Norway","alphanumeric":"FYE51GXR5HZ"},{"name":"Patience Dillard","phone":"1-287-873-7553","email":"ullamcorper.velit@protonmail.ca","address":"3514 Imperdiet, Rd.","postalZip":"313467","country":"United States","alphanumeric":"PIP20MEQ9IJ"},{"name":"Paloma Arnold","phone":"1-238-623-9918","email":"vulputate.dui.nec@protonmail.org","address":"609-1450 Mauris Rd.","postalZip":"63284","country":"Vietnam","alphanumeric":"TYT37WPI2YJ"},{"name":"Imani Soto","phone":"1-492-184-1955","email":"ultricies.adipiscing@yahoo.com","address":"248-5590 In St.","postalZip":"25943","country":"China","alphanumeric":"TEJ21JOK5GK"},{"name":"Wang Stevens","phone":"(820) 221-1222","email":"sociis.natoque@outlook.org","address":"130 Imperdiet St.","postalZip":"29341","country":"Austria","alphanumeric":"UWP77ARG7ON"},{"name":"Bevis Weeks","phone":"1-468-932-2640","email":"dolor.elit.pellentesque@aol.couk","address":"Ap #999-9272 Id, St.","postalZip":"03633","country":"United States","alphanumeric":"XON53UVH2AT"},{"name":"Ivory Hanson","phone":"1-557-557-9361","email":"feugiat.lorem@icloud.org","address":"Ap #666-1049 Morbi St.","postalZip":"64131","country":"Norway","alphanumeric":"HKO53BYE8QX"},{"name":"Whilemina Jensen","phone":"(939) 475-5855","email":"et.netus@outlook.net","address":"Ap #226-1815 Sodales Rd.","postalZip":"S5B 3B3","country":"Australia","alphanumeric":"AYK41VGZ3VA"},{"name":"Lesley Goff","phone":"1-753-404-4945","email":"et.magnis.dis@hotmail.net","address":"424-9650 Mus. Rd.","postalZip":"82-489","country":"United States","alphanumeric":"NOK83CLF2AG"},{"name":"Thaddeus Carey","phone":"(175) 565-0572","email":"magna.lorem@google.ca","address":"761-9048 Risus Rd.","postalZip":"R6H 3W2","country":"Poland","alphanumeric":"QEU26LMD1BX"},{"name":"Oren Holman","phone":"(389) 659-7305","email":"malesuada@aol.ca","address":"P.O. Box 146, 6735 Dignissim Avenue","postalZip":"264332","country":"Italy","alphanumeric":"UOF85GZX9VK"},{"name":"Fallon Terry","phone":"(476) 651-8681","email":"luctus.lobortis@aol.net","address":"610-4909 Dolor Rd.","postalZip":"1447","country":"Italy","alphanumeric":"WWH59KIV3PH"},{"name":"Bernard Flores","phone":"(897) 916-7869","email":"aliquam.ultrices@icloud.org","address":"847-8279 Venenatis Avenue","postalZip":"50108","country":"Peru","alphanumeric":"DWV65NBI8JC"}],
+          "sortColumn": "email",
+          "sortAscending": true
+        }
+
+        const mytable = document.querySelector('#my-table');
+        mytable.headers = config.headers;
+        mytable.items = config.items;
+        mytable.sortColumn = config.sortColumn;
+        mytable.sortAscending = config.sortAscending;
+
+        const sortbtn = document.querySelector('#sortbtn');
+        sortbtn.addEventListener("click", function() {
+          mytable.sortColumn = "country";
+          mytable.sortAscending = false;          
+        });
+
+        // const sortbtn2 = document.querySelector('#sortbtn2');
+        // sortbtn2.addEventListener("click", function() {
+        //   const headers = [{"text": "ID","align": "right","value": "id","sortable": true,},{"text": "Name","align": "left","value": "name","sortable": true,},{"text": "User Name","align": "left","value": "username","sortable": true,},{"text": "Email","align": "left","value": "email","sortable": true,}];
+        //   const url = 'https://jsonplaceholder.typicode.com/users';
+        //   fetch(url)
+        //   .then(response => response.json())
+        //   .then(function(data) {
+        //     mytable.items = data;
+        //     mytable.headers = headers;
+        //     sortbtn.disabled = true;
+        //   });
+        // });
+
+    </script>
+  </head>
+  <body>
+    <div class="container">
+    <h1>Values Set In Javascript</h1>
+
+     <button class="mdl-button mdl-js-button mdl-button--raised mdl-button--colored" id="sortbtn">
+      External Sort Button - Country Descending
+    </button>
+
+    <!--
+    <button class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect mdl-button--accent" id="sortbtn2">
+      Change Grid Data
+    </button> -->
+
+      <table-component id="my-table"></table-component>
+
+
+      <h1>Values Set In HTML</h1>
+      <table-component 
+        id="my-table-2"
+        sort-column="email"
+        sort-ascending="false"        
+        headers='[{"text": "Name", "align": "left", "sortable": true, "value": "name"}, {"text": "Phone", "align": "left", "sortable": true, "value": "phone"}, {"text": "Email", "align": "left", "sortable": true, "value": "email"}, {"text": "Address", "align": "left", "sortable": false, "value": "address"}, {"text": "Zip", "align": "right", "sortable": true, "value": "postalZip"}, {"text": "Country", "align": "left", "sortable": true, "value": "country"}, {"text": "Password", "align": "left", "sortable": false, "value": "alphanumeric"}]'
+        items='[{"name":"Jolene Barber","phone":"(703) 204-2733","email":"dictum.proin.eget@hotmail.couk","address":"740-6260 Blandit Av.","postalZip":"73758-56153","country":"Chile","alphanumeric":"TWZ65HOO7BS"},{"name":"Wynne Ward","phone":"1-928-408-4281","email":"malesuada.vel@icloud.ca","address":"Ap #670-9817 Erat, St.","postalZip":"4934","country":"Russian Federation","alphanumeric":"YUM07PYU7YQ"},{"name":"Cameron Dotson","phone":"1-988-938-0177","email":"ut@protonmail.couk","address":"P.O. Box 218, 9427 Morbi Rd.","postalZip":"14858","country":"India","alphanumeric":"ZUQ22OUZ3LX"},{"name":"Isabella Best","phone":"(564) 877-5148","email":"purus.sapien.gravida@protonmail.net","address":"Ap #833-7466 Lacinia Ave","postalZip":"8642","country":"Costa Rica","alphanumeric":"XIL14XFX5UY"},{"name":"Renee Jimenez","phone":"(728) 433-6082","email":"praesent.interdum@outlook.org","address":"P.O. Box 434, 357 Massa. Rd.","postalZip":"85623","country":"Peru","alphanumeric":"UUP05XNW2MD"},{"name":"Jeremy Guy","phone":"1-477-888-0017","email":"sed.diam@google.com","address":"P.O. Box 826, 5350 Eu Road","postalZip":"306127","country":"Norway","alphanumeric":"NEG15NNX1WE"},{"name":"Chase Massey","phone":"1-831-213-6328","email":"malesuada@hotmail.org","address":"Ap #176-1498 Leo Rd.","postalZip":"599987","country":"Vietnam","alphanumeric":"NFZ50FUW9RX"},{"name":"Kennan Gutierrez","phone":"(213) 882-3891","email":"fusce.diam@outlook.edu","address":"P.O. Box 586, 4685 Turpis Rd.","postalZip":"987029","country":"Colombia","alphanumeric":"KBC03NWG2PU"},{"name":"Kellie Wolf","phone":"1-861-513-6468","email":"consequat.enim@google.org","address":"1127 Lorem St.","postalZip":"51-534","country":"Norway","alphanumeric":"CMV39RNW0FJ"},{"name":"Jenette Baldwin","phone":"(433) 863-7091","email":"mauris.elit@yahoo.edu","address":"Ap #371-6350 Congue Avenue","postalZip":"478715","country":"New Zealand","alphanumeric":"PCS13CUL3JD"},{"name":"Kiayada Mays","phone":"(555) 794-8555","email":"donec.nibh@protonmail.edu","address":"Ap #180-5214 Ullamcorper Av.","postalZip":"8422","country":"South Korea","alphanumeric":"KNV15GEF2YN"},{"name":"Elton Powell","phone":"(519) 452-6177","email":"at.nisi@icloud.ca","address":"1117 Commodo Rd.","postalZip":"11214","country":"Germany","alphanumeric":"COA79QBR5DA"},{"name":"Aline Hampton","phone":"1-169-598-6530","email":"ut.semper@google.com","address":"9887 Sit Ave","postalZip":"3954542","country":"Canada","alphanumeric":"HMW74CNK3HD"},{"name":"Mariam Raymond","phone":"1-731-762-6726","email":"et.ultrices.posuere@protonmail.couk","address":"P.O. Box 800, 4416 Eget St.","postalZip":"342685","country":"Indonesia","alphanumeric":"PPX43GPG4OR"},{"name":"Pascale Cleveland","phone":"(551) 552-3675","email":"diam.proin@aol.edu","address":"4428 Tellus Av.","postalZip":"63181-763","country":"Germany","alphanumeric":"QLF74IMJ1DX"},{"name":"Nasim Decker","phone":"1-817-638-1425","email":"imperdiet@yahoo.edu","address":"3136 Proin Rd.","postalZip":"L7V 3G0","country":"United States","alphanumeric":"CPP31HMB1DP"},{"name":"Ifeoma Oneal","phone":"1-932-907-2645","email":"amet.ornare.lectus@aol.ca","address":"7254 Aliquam St.","postalZip":"EI7M 6IN","country":"Pakistan","alphanumeric":"LLM44IRB2BY"},{"name":"Patience Ratliff","phone":"1-172-728-7129","email":"non@hotmail.net","address":"448-4319 Pede. Rd.","postalZip":"0214","country":"Norway","alphanumeric":"FYE51GXR5HZ"},{"name":"Patience Dillard","phone":"1-287-873-7553","email":"ullamcorper.velit@protonmail.ca","address":"3514 Imperdiet, Rd.","postalZip":"313467","country":"United States","alphanumeric":"PIP20MEQ9IJ"},{"name":"Paloma Arnold","phone":"1-238-623-9918","email":"vulputate.dui.nec@protonmail.org","address":"609-1450 Mauris Rd.","postalZip":"63284","country":"Vietnam","alphanumeric":"TYT37WPI2YJ"},{"name":"Imani Soto","phone":"1-492-184-1955","email":"ultricies.adipiscing@yahoo.com","address":"248-5590 In St.","postalZip":"25943","country":"China","alphanumeric":"TEJ21JOK5GK"},{"name":"Wang Stevens","phone":"(820) 221-1222","email":"sociis.natoque@outlook.org","address":"130 Imperdiet St.","postalZip":"29341","country":"Austria","alphanumeric":"UWP77ARG7ON"},{"name":"Bevis Weeks","phone":"1-468-932-2640","email":"dolor.elit.pellentesque@aol.couk","address":"Ap #999-9272 Id, St.","postalZip":"03633","country":"United States","alphanumeric":"XON53UVH2AT"},{"name":"Ivory Hanson","phone":"1-557-557-9361","email":"feugiat.lorem@icloud.org","address":"Ap #666-1049 Morbi St.","postalZip":"64131","country":"Norway","alphanumeric":"HKO53BYE8QX"},{"name":"Whilemina Jensen","phone":"(939) 475-5855","email":"et.netus@outlook.net","address":"Ap #226-1815 Sodales Rd.","postalZip":"S5B 3B3","country":"Australia","alphanumeric":"AYK41VGZ3VA"},{"name":"Lesley Goff","phone":"1-753-404-4945","email":"et.magnis.dis@hotmail.net","address":"424-9650 Mus. Rd.","postalZip":"82-489","country":"United States","alphanumeric":"NOK83CLF2AG"},{"name":"Thaddeus Carey","phone":"(175) 565-0572","email":"magna.lorem@google.ca","address":"761-9048 Risus Rd.","postalZip":"R6H 3W2","country":"Poland","alphanumeric":"QEU26LMD1BX"},{"name":"Oren Holman","phone":"(389) 659-7305","email":"malesuada@aol.ca","address":"P.O. Box 146, 6735 Dignissim Avenue","postalZip":"264332","country":"Italy","alphanumeric":"UOF85GZX9VK"},{"name":"Fallon Terry","phone":"(476) 651-8681","email":"luctus.lobortis@aol.net","address":"610-4909 Dolor Rd.","postalZip":"1447","country":"Italy","alphanumeric":"WWH59KIV3PH"},{"name":"Bernard Flores","phone":"(897) 916-7869","email":"aliquam.ultrices@icloud.org","address":"847-8279 Venenatis Avenue","postalZip":"50108","country":"Peru","alphanumeric":"DWV65NBI8JC"}]'
+        >
+      </table-component>
+
+    </div>
+  </body>
+</html>
