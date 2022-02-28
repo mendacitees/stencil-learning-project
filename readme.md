@@ -47,7 +47,7 @@ and another where it is stringified and passed as a property in an HTML tag.  Bo
 This is not meant to duplicate the design system table in any way, as I wasn't looking at any of it's
 requirements.  I just felt like this was a good starting point to accomplish what I was trying to learn.
 
-### (Material Design Lite) [https://getmdl.io/customize/index.html]
+### ![Material Design Lite] (https://getmdl.io/customize/index.html)
 
 Material Design Lite CSS was used to style the table.  It also adds the sort icons based on the class
 for a given table cell.  Colors can be customized (here)[https://getmdl.io/customize/index.html]
